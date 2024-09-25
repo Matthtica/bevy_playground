@@ -4,8 +4,8 @@ use bevy::{
     window::{PresentMode, Window, WindowTheme, WindowPlugin},
 };
 
-use bevyfun::{
-    fps,
+use bevy_playground::{
+    utils::FpsPlugin,
     demo::MovingCirclePlugin,
 };
 
@@ -23,7 +23,7 @@ fn main() {
         }),
         ..default()
     }), Wireframe2dPlugin))
-        .add_plugins(fps::FpsPlugin)
+        .add_plugins(FpsPlugin)
         .add_plugins(MovingCirclePlugin)
         .run();
 }

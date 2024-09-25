@@ -1315,6 +1315,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "bevy_playground"
+version = "0.1.0"
+dependencies = [
+ "bevy 0.14.2",
+ "bevy-fps-counter",
+]
+
+[[package]]
 name = "bevy_ptr"
 version = "0.13.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1951,14 +1959,6 @@ dependencies = [
  "wasm-bindgen",
  "web-sys",
  "winit 0.30.5",
-]
-
-[[package]]
-name = "bevyfun"
-version = "0.1.0"
-dependencies = [
- "bevy 0.14.2",
- "bevy-fps-counter",
 ]
 
 [[package]]

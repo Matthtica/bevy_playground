@@ -1,1 +1,2 @@
-pub mod fps;
+mod fps;
+pub use fps::FpsPlugin;
